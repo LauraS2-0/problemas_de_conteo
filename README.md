@@ -1,2 +1,2 @@
-#Modelado Combinatorio con Python
-##Conteo, algoritmos y estructuras aplicadas al análisis de datos
+# Modelado Combinatorio con Python
+## Conteo, algoritmos y estructuras aplicadas al análisis de datos
