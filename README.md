@@ -6,28 +6,84 @@ Laura Sophia Castro - Universidad Nacional de Colombia
 ---
 
 ### Resumen
+
 Este proyecto transforma problemas clásicos de combinatoria en herramientas computacionales interactivas, permitiendo modelar:
- -Estructuras binarias (0/1)
- -Distribución de recursos
- -Conteo bajo restricciones
+ - Estructuras binarias (0/1)
+ - Distribución de recursos
+ - Conteo bajo restricciones
 Todo mediante código modular, validado y eficiente.
 ---
 
 ### Descripción 
+
 Este proyecto tiene como objetivo desarrollar soluciones generales a problemas de conteo en matemáticas discretas, mediante la implementación de algoritmos en Python.
 A diferencia de resolver casos específicos, se construyen herramientas que permiten:
- -Ingresar parámetros variables
- -Validar entradas
- -Aplicar modelos combinatorios correctamente
- -Obtener resultados para múltiples escenarios
+ - Ingresar parámetros variables
+ - Validar entradas
+ - Aplicar modelos combinatorios correctamente
+ - Obtener resultados para múltiples escenarios
 De esta manera, el proyecto conecta el razonamiento matemático con su implementación computacional, permitiendo modelar problemas de forma estructurada y eficiente.
 ---
 
 ### Características principales
 
- -Implementación general (no casos fijos)
- -Validación de entradas robusta
- -Pruebas automatizadas
- -Arquitectura modular
- -Uso de principios combinatorios
- -Código reutilizable y escalable
+ - Implementación general (no casos fijos)
+ - Validación de entradas robusta
+ - Pruebas automatizadas
+ - Arquitectura modular
+ - Uso de principios combinatorios
+ - Código reutilizable y escalable
+---
+
+### Módulos principales
+
+| Módulo            | Descripción                                     |
+| ----------------- | ----------------------------------------------- |
+| `binarios.py`     | Conteo de cadenas binarias con restricciones    |
+| `distribucion.py` | Distribución de objetos en cajas                |
+| `utils.py`        | Funciones matemáticas (factorial, combinatoria) |
+| `main.py`         | Interfaz interactiva                            |
+---
+
+### Enfoque
+Este proyecto no solo resuelve ejercicios puntuales, sino que:
+
+ - Modela estructuras discretas
+ - Implementa algoritmos basados en matemáticas
+ - Aplica combinatoria en contextos computacionales
+Con un enfoque cercano a análisis de datos y modelado algorítmico.
+---
+
+### Fundamento matemático
+El proyecto se basa en principios fundamentales de la combinatoria, especialmente en el uso de factoriales y coeficientes binomiales.
+
+ - Factorial
+
+El factorial de un número n se define como: n!=n⋅(n−1)⋅(n−2)⋯1
+
+Se utiliza para contar el número de formas de ordenar elementos.
+
+ - Combinatoria (coeficiente binomial)
+
+El número de formas de elegir k elementos de un conjunto de n elementos está dado por:
+
+Este principio es fundamental en:
+
+Conteo de cadenas binarias
+Distribución de objetos
+Cálculo de combinaciones bajo restricciones
+ **Aplicación en el proyecto**
+
+En lugar de generar todas las configuraciones posibles (lo cual sería computacionalmente costoso), el programa utiliza directamente estas fórmulas para:
+
+Reducir la complejidad
+Optimizar el cálculo
+Permitir trabajar con valores más grandes
+---
+
+### Problemas implementados
+** Problema 3: Cadenas binarias con restricciones **
+Se estudia el número de cadenas binarias de longitud n bajo distintas condiciones.
+ Modelos:
+         - Total: 2
+
