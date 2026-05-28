@@ -2,7 +2,9 @@
 ## Conteo, algoritmos y estructuras aplicadas al análisis de datos
 
 ### Autor
-Laura Sophia Castro - Universidad Nacional de Colombia
+Laura Sophia Castro Amaya
+Universidad Nacional de Colombia
+
 ---
 
 ### Resumen
@@ -68,17 +70,16 @@ Se utiliza para contar el número de formas de ordenar elementos.
 El número de formas de elegir k elementos de un conjunto de n elementos está dado por:
 
 Este principio es fundamental en:
-
-Conteo de cadenas binarias
-Distribución de objetos
-Cálculo de combinaciones bajo restricciones
+ - Conteo de cadenas binarias
+ - Distribución de objetos
+ - Cálculo de combinaciones bajo restricciones
+ - 
  **Aplicación en el proyecto**
 
 En lugar de generar todas las configuraciones posibles (lo cual sería computacionalmente costoso), el programa utiliza directamente estas fórmulas para:
-
-Reducir la complejidad
-Optimizar el cálculo
-Permitir trabajar con valores más grandes
+- Reducir la complejidad
+- Optimizar el cálculo
+- Permitir trabajar con valores más grandes
 ---
 
 ### Problemas implementados
@@ -86,4 +87,38 @@ Permitir trabajar con valores más grandes
 Se estudia el número de cadenas binarias de longitud n bajo distintas condiciones.
  Modelos:
          - Total: 2
+         - Exactamente *k*:
+         - A lo sumo *k*:
+         - Al menos *k*:
+         - Balanceadas:
 
+** Problema 7: Distribución de objetos en caja **
+Modela la asignación de *n* objetos en *k* cajas
+ Modelos:
+         - Con cajas vacías: 2
+         - Sin cajas vacías:
+         - Con límite por caja: Aplicación del principio de inclusión-exclusión
+
+---
+
+### Ejecución 
+python main.py
+
+** Pruebas **
+python -m unittest tests/test_binarios.py
+python -m unittest tests/test_distribucion.py
+
+---
+
+### Validación
+El sistema maneja:
+ - Valores negativos
+ - Parámetros inválidos
+ - Casos imposibles
+---
+
+### Posibles mejoras
+ - Visualización gráfica
+ - Simulación de distribuciones
+ - Interfaz gráfica
+ - Integración con grafos
