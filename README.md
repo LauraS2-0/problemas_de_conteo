@@ -102,11 +102,11 @@ Modela la asignación de *n* objetos en *k* cajas
 ---
 
 ### Ejecución 
-python main.py
+ - python main.py
 
 **Pruebas**
-python -m unittest tests/test_binarios.py
-python -m unittest tests/test_distribucion.py
+ - python -m unittest tests/test_binarios.py
+ - python -m unittest tests/test_distribucion.py
 
 ---
 
