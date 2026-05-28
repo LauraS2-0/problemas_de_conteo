@@ -83,7 +83,7 @@ En lugar de generar todas las configuraciones posibles (lo cual sería computaci
 ---
 
 ### Problemas implementados
-** Problema 3: Cadenas binarias con restricciones **
+**Problema 3: Cadenas binarias con restricciones**
 Se estudia el número de cadenas binarias de longitud n bajo distintas condiciones.
  Modelos:
          - Total: 2
@@ -92,7 +92,7 @@ Se estudia el número de cadenas binarias de longitud n bajo distintas condicion
          - Al menos *k*:
          - Balanceadas:
 
-** Problema 7: Distribución de objetos en caja **
+**Problema 7: Distribución de objetos en caja**
 Modela la asignación de *n* objetos en *k* cajas
  Modelos:
          - Con cajas vacías: 2
@@ -104,7 +104,7 @@ Modela la asignación de *n* objetos en *k* cajas
 ### Ejecución 
 python main.py
 
-** Pruebas **
+**Pruebas**
 python -m unittest tests/test_binarios.py
 python -m unittest tests/test_distribucion.py
 
