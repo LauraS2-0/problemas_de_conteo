@@ -16,7 +16,7 @@ class TestDistribucion(unittest.TestCase):
         self.assertEqual(distribucion_sin_vacias(2, 3), 0)
 
     def test_con_limite(self):
-        self.assertEqual(distribucion_con_limite(5, 2, 3), 4)
+        self.assertEqual(distribucion_con_limite(5, 2, 3), 2)
 
     def test_errores(self):
         with self.assertRaises(ValueError):
