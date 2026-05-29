@@ -122,9 +122,28 @@ $$
 **Problema 7: Distribución de objetos en caja**
 Modela la asignación de *n* objetos en *k* cajas
  Modelos:
-         - Con cajas vacías: 2
-         - Sin cajas vacías:
-         - Con límite por caja: Aplicación del principio de inclusión-exclusión
+### Distribución de objetos en cajas
+
+- Con cajas vacías:
+
+$$
+\binom{n + k - 1}{k - 1}
+$$
+
+- Sin cajas vacías:
+
+$$
+\binom{n - 1}{k - 1}
+$$
+
+- Con límite por caja:
+
+Se aplica el principio de inclusión-exclusión:
+
+$$
+\sum_{i=0}^{k} (-1)^i \binom{k}{i} \binom{n - i(m+1) + k -1}{k -1}
+$$
+         
 
 ---
 
