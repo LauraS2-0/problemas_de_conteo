@@ -156,6 +156,15 @@ $$
 
 ---
 
+### Ejemplos
+- Cadenas binarias:
+                   Entrada: n = 5, k = 2
+                   Salida: 10
+
+- Distribución:
+                  Entrada: n = 5, k = 3
+                  Salida: 21
+
 ### Validación
 El sistema maneja:
  - Valores negativos
