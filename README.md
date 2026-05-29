@@ -86,11 +86,30 @@ En lugar de generar todas las configuraciones posibles (lo cual sería computaci
 **Problema 3: Cadenas binarias con restricciones**
 Se estudia el número de cadenas binarias de longitud n bajo distintas condiciones.
  Modelos:
-         - Total: 2
-         - Exactamente *k*:
-         - A lo sumo *k*:
-         - Al menos *k*:
+         - Total:
+         $$
+         2^n
+         $$
+         
+         - Exactamente k:
+         $$
+         \binom{n}{k}
+         $$
+         
+         - A lo sumo k:
+         $$
+         \sum_{i=0}^{k} \binom{n}{i}
+         $$
+         
+         - Al menos k:
+         $$
+         \sum_{i=k}^{n} \binom{n}{i}
+         $$
+         
          - Balanceadas:
+         $$
+         \binom{n}{n/2}
+         $$
 
 **Problema 7: Distribución de objetos en caja**
 Modela la asignación de *n* objetos en *k* cajas
