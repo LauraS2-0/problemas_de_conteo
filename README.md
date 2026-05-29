@@ -88,26 +88,31 @@ Se estudia el número de cadenas binarias de longitud n bajo distintas condicion
  Modelos:
 
 - Total de cadenas binarias
+  
 $$
 2^n
 $$
 
 - Exactamente k unos
+  
 $$
 \binom{n}{k}
 $$
 
 - A lo sumo k unos
+
 $$
 \sum_{i=0}^{k}\binom{n}{i}
 $$
 
 - Al menos k unos
+  
 $$
 \sum_{i=k}^{n}\binom{n}{i}
 $$
 
 - Cadenas balanceadas
+  
 $$
 \binom{n}{n/2}
 \qquad \text{(si } n \text{ es par)}
